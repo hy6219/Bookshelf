@@ -1,0 +1,102 @@
+body{
+    background:url(LoginBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    position:relative;
+}
+.LogIn{
+    width:600px;height:600px;
+    background:rgba(255,255,255,0.5);
+    position:absolute;
+    left:30%;
+    margin-top:10px;
+    border-radius:10px;
+    box-shadow:1px 1px 1px 1px lightslategray;
+}
+.user{
+    width:200px;height:200px;
+    position:relative;
+    top:10px;
+    margin-left:200px;
+    margin-bottom:10px;
+}
+.id i{
+    position:absolute;
+    left:50px;
+    top:270px;
+    padding:8px 8px;
+    color:lightgray;
+
+}
+.pw i{
+    position:absolute;
+    left:50px;
+    top:430px;
+    padding:8px 8px;
+    color:lightgray;
+ 
+}
+.logformID,.logformpw{
+    width:450px;
+    height:50px;
+    background:white;
+    border:1.5px solid #3498db;
+    border-radius:5px;
+    margin:50px;
+    padding-left:50px;
+
+}
+.memory{
+    margin-left:50px;
+    float:left;
+}
+.remem{
+    transition:2s;
+}
+.remem:hover{
+    background:orangered;
+    width:300px;
+    height:35px;
+}
+/*
+.remem:hover{
+    background:orange;
+    animation-name:slide;
+    animation-duration:5s;
+    animation-timing-function: ease-in;
+}
+@keyframes slide {
+    0% {
+      left: 0;
+    }
+    25%{
+        left:100px;
+    }
+    50% {
+      left: 200px;
+    }
+    75%{
+      left: 300px;
+    }
+    100% {
+      left: 400px;
+    }
+  }*/
+  .Finlog{
+      background:lightseagreen;
+      width:100px;
+      height:50px;
+      padding:10px;
+      border:3px solid purple;
+      font-size:15px;
+      font-weight:bold;
+      color:white;
+      border-radius: 3px;
+      margin-left:250px;
+  }
+  .clearfix::after{
+      content:"";
+      clear:both;
+      display:table;
+  }

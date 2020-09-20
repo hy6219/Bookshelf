@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2014/04/03/00/32/padlock-308589__340.png"sizes="64x64">
+    <link rel="stylesheet" type="text/css" href="logPage.css">
+</head>
+<body>
+    <form action="bookshelf.html">
+        <div class="LogIn">
+            <img src="User.svg" alt="Login" class="user">
+            <form class="config">
+                <div class="id">
+                    <i class="fa fa-user fa-2x" id="idIcon"></i>
+                    <input class="logformID"type="text"placeholder="ID" required>
+                </div>
+                <div class="pw">
+                    <i class="fa fa-lock fa-2x" id="pwIcon"></i>
+                    <input class="logformpw"type="password"placeholder="Password"pattern=".{5,12}" title="영문,숫자,특수문자를 조합한 5~12자리 비밀번호를 입력해주세요"required>
+                </div>
+            </form>
+            <div class="memory clearfix">
+                <span class="check">
+                    <input type="checkbox" id="keep">
+                    <label for="keep"class="remem">
+                    Remember me</label>
+                </span>
+                <span class="logConfig">
+                    <button class="Finlog">Login</button>
+                </span>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
